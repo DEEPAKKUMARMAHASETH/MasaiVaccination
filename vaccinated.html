@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="vaccinated.css">
+</head>
+<body>
+    <nav>
+        <a href="#">Masai Vaccination</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="index.html">Registration</a>
+        <a href="vaccinated.html">Vaccinated</a>
+    </nav>
+    <div id="select">
+        <select name="" id="sort">
+            <option value="">Filter By Age</option>
+            <option value="low">Accending</option>    
+            <option value="high">Deccending</option>    
+        </select>
+        <select name="" id="filter">
+            <option value="">Filter Vaccince</option>
+            <option value="Covaxin">Covaxin</option>
+            <option value="Sputnik">Sputnic</option>
+            <option value="Covishield">Covishield</option>
+            <option value="p0">p0</option>
+            <option value="p1">p1</option>
+            <option value="p2">p2</option>
+            <option value="p3">p3</option>
+        </select>
+    </div>
+    <table>
+        <th>
+            <tr>
+                <td>ID</td>
+                <td>name</td>
+                <td>Age</td>
+                <td>Designation</td>
+                <td>Priority</td>
+                <td>Vaccinate</td>
+            </tr>
+        </th> 
+        <tbody id="table_data">
+        </tbody>
+    </table>
+</body>
+</html>
+<script src="vaccinated.js"></script>
